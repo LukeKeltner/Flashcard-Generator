@@ -6,9 +6,12 @@ var card2 = new ClozeCard("George Washington was the first president of the Unit
 console.log("Making card 3")
 var card3 = new ClozeCard("George Washington was the first president of the United States.", "Ab Lincoln")
 
+card4 = new ClozeCard("Luke is awesome", "Luke")
+
 
 
 console.log(card1.front)
 console.log(card1.back)
 console.log(card2.partialText)
 console.log(card3.fullText)
+console.log(card4.partialText)
