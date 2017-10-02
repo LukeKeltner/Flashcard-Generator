@@ -19,7 +19,7 @@ function ClozeCard(text, cloze)
 
 	this.fullText = text;
 	this.cloze = cloze;
-	this.partialText = text.replace(cloze,"...");
+	this.partialText = text.replace(cloze, "...");
 }
 
 module.exports = ClozeCard;
